@@ -1,0 +1,263 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0 ;
+  padding: 0;
+  background: #2300ff;
+  overflow: hidden;
+}
+.image-register {
+  position: relative;
+  width: 1254px;
+  height: 673px;
+  margin: 20px 0 0 113px;
+  background: url(../../assets/images/event.jpg)
+    no-repeat center;
+  background-size: cover;
+
+  border-radius: 87px;
+}
+.register-1 {
+  position: relative;
+  width: 667px;
+  height: 673px;
+  margin: 0 0 0 587px;
+  font-size: 0px;
+  background:rgba(118, 98, 98, 0.8);
+  
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 0 87px 87px 0;
+}
+.title-register {
+  display: block;
+  position: relative;
+  height: 85px;
+  margin: 39px 0 0 147px;
+  color: #ffffff;
+  font-family: Jost, var(--default-font-family);
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 85px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 15;
+}
+.flex-row-df {
+
+  position: relative;
+  width: 378px;
+  height: 43px;
+  margin: 39px 0 0 123px;
+  font-size: 0px;
+  z-index: 11;
+
+}
+.full-name {
+  display: block;
+  position: relative;
+  height: 26px;
+  margin: 8px 0 0 20px;
+  bottom: 5px;
+  color: rgba(255, 254, 254, 0.8);
+  font-family: Inter, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 26px;
+
+  white-space: nowrap;
+  z-index: 11;
+}
+
+.flex-row-d {
+  position: relative;
+  width: 378px;
+  height: 44px;
+  margin: 34px 0 0 123px;
+  font-size: 0px;
+  z-index: 12;
+
+}
+.cin {
+  display: block;
+  position: relative;
+  height: 26px;
+  margin: 8px 0 0 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 12;
+}
+
+.flex-row-d-4 {
+  position: relative;
+  width: 378px;
+  height: 44px;
+  margin: 31px 0 0 123px;
+  font-size: 0px;
+  z-index: 13;
+}
+.password {
+  display: block;
+  position: relative;
+  height: 26px;
+  margin: 6px 0 0 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+
+.flex-row-fa {
+  position: relative;
+  width: 378px;
+  height: 43px;
+  margin: 32px 0 0 123px;
+  font-size: 0px;
+  z-index: 14;
+}
+.confirm-password {
+  display: block;
+  position: relative;
+  height: 26px;
+  margin: 10px 0 0 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+}
+
+.flex-row-fc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 338px;
+  height: 25px;
+  margin: 32px 0 0 132px;
+  z-index: 16;
+}
+
+.agree-to-terms {
+  flex-shrink: 0;
+  position: relative;
+  height: 25px;
+  color: #ffffff;
+  right: 120px;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+
+
+
+}
+.btn-register {
+  
+  width: 270px;
+  height: 37px;
+  margin: 52px 0 0 140px;
+  background: #3616ff;
+  color: #ffffff;
+  z-index: 4;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.625px;
+  text-align: left;
+  white-space: nowrap;
+  text-align: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.p-checkbox{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px; 
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+ 
+
+}
+.register-button {
+  position: absolute;
+  width: 86px;
+  height: 10px;
+  cursor: pointer;
+  z-index: 2;
+  bottom: 200px;
+}
+.have-account-login {
+  display: block;
+  position: relative;
+  height: 24px;
+  margin: 85px 0 0 180px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size:17px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.link{
+ 
+  text-decoration: underline;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+
+}
