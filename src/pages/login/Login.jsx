@@ -8,7 +8,9 @@ import { Message } from 'primereact/message';
 export default function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+  //  redirect to registerinformation
+    window.location.href = '/registerinformation';
+
   };
 
   return (
@@ -20,10 +22,7 @@ export default function Login() {
         <form onSubmit={handleSubmit}>
           <div className='input' >
           <label htmlFor="cin" >Cin : </label><br />
-          <InputText id="cin" placeholder='Cin' className='p-inputtext'/>
-      
-        
-         
+          <InputText id="cin" placeholder='Cin' className='p-inputtext'/>       
           </div>
           <div className='input'>
           <label htmlFor="password" >Password :</label><br />

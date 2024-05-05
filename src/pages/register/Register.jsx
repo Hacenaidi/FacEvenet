@@ -7,6 +7,8 @@ import { Link } from 'react-router-dom';
 const handleSubmit = (e) => {
   e.preventDefault();
   // Handle form submission logic here
+  // redirect to login
+  window.location.href = '/login';
 };
 export default function Register() {
   return (

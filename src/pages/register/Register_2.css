@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  .register {
+    width: 100%;
+    height: 50px;
+    background-position: 50% 50%; 
+    background-size: cover; 
+  
+  }
+.image-register_2{
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    margin: 0;
+    padding: 0;
+    background: url(../../assets/images/event.jpg)
+      no-repeat center;
+    background-size: cover;
+
+}
+  
+  .register .div {
+    /* -webkit-backdrop-filter: blur(17px) brightness(100%); */
+    backdrop-filter: blur(17px) brightness(100%);
+    background-color: #d9d9d966;
+    border-radius: 91px;
+    box-shadow: inset 5px 4px 4px #00000040;
+    height: 700px;
+    position: relative;
+    left: -400px;
+    top: -525px;
+    width: 1190px;
+  }
+  
+  .register .overlap-group {
+    height: 56px;
+    left: 121px;
+    position: absolute;
+    top: 34px;
+    width: 509px;
+  }
+  
+  
+  .register .frame {
+    background-color: #26d72d;
+    border-radius: 700px;
+    height: 56px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 59px;
+  }
+  
+  .register .frame-2 {
+    background-color: #26d72d;
+    border-radius: 700px;
+    height: 56px;
+    left: 450px;
+    position: absolute;
+    top: 0;
+    width: 59px;
+  }
+  
+  .register .table_form{
+    position: relative;
+    top: 200px;
+    left: 190px;
+    /* padding: ;: 50px; */
+  }
+  .input_register{
+    padding: 10px;
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    font-size: 20px;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    top: 10px;
+    white-space: nowrap;
+    text-align: left;
+
+  }
+  
+  .register .table_form td{
+    padding: 10px;
+  }
+  .register .table_form .label{
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    top: 10px;
+    white-space: nowrap;
+    text-align: left;
+    
+  }
+  .register .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 467px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  
+  .register .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  
+  .register .overlap-2 {
+    height: 56px;
+    left: 630px;
+    position: absolute;
+    top: 34px;
+    width: 451px;
+  }
+  
+  .register .frame-3 {
+    background-color: #ffffff;
+    border-radius: 700px;
+    height: 56px;
+    left: 392px;
+    position: absolute;
+    top: 0;
+    width: 59px;
+  }
+  
+  .register .text-wrapper-3 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 408px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3px;
+    white-space: nowrap;
+  }
+  
+
+
+ 
+  
+ 
+  
+
+  
+  .register .text-wrapper-8 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 33px;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.7;
+    position: absolute;
+    top: 5px;
+    white-space: nowrap;
+  }
+  
+  .register .text-wrapper-9 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 346px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 134px;
+    white-space: nowrap;
+  }
+  
+  .register .btn-register {
+    all: unset;
+    background-color: #3616ff;
+    border-radius: 30px;
+    box-sizing: border-box;
+    height: 55px;
+    left: 318px;
+    overflow: hidden;
+    position: absolute;
+    top: 600px;
+    width: 565px;
+  }
+  
+  .register .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 224px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+  }
+
+  .green-hr{
+    position: relative;
+    height: 2px;
+    background-color: rgb(9, 215, 9);
+    width: 400px;
+    left: 55px;
+    top: 25px;
+    z-index:-1;
+  }
+  .noir-hr{
+    position: relative;
+    height: 2px;
+    background-color: black;
+    width: 400px;
+      top: 25px;
+    z-index:-1;
+  }
+  

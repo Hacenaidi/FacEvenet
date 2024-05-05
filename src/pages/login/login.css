@@ -44,21 +44,13 @@
       no-repeat center;
     background-size: cover;
   }
-  .frame {
-    position: absolute;
-    width:10000px;
-    height: 100000px;
-    top: 0;
-    background: rgba(0, 0, 0, 0.4);
-    z-index: 1;
-    overflow: hidden;
-  }
+  
   .frame-1 {
     position: relative;
     width: 621px;
-    height: 400px;
+    height: 500px;
     top: 125px;
-    left: 435px;
+    left: 25%;
     background: rgba(217, 217, 217, 0.3);
     z-index: 2;
     overflow: hidden;
@@ -86,11 +78,11 @@
     border-radius: 50px;
     border: none;
     height: 35px;
-    width: 290px;
+    width: 350px;
     font-size: 20px;
     padding-left: 10px;
     background: transparent;
-    background-color: #d5cece;
+    background-color: #f0e8e8;
     margin-top: 5px;
   }
 .input{
@@ -103,7 +95,7 @@
     width: 250px;
     height: 38px;
     margin-top: 15px;
-    left: 178px;
+    left: 200px;
     cursor: pointer;
     background: #3616ff;
     border: none;
@@ -130,7 +122,7 @@
   }
   .or {
     position: relative;
-    left: 285px;
+    left: 310px;
     color: #ffffff;
     margin-top: 20px;
     font-family: Inter, var(--default-font-family);
@@ -161,7 +153,7 @@
   }
   .text{
     position: relative;
-    left: 175px;
+    left: 200px;
     top: 20px;
     font-size: 20px;
   }
