@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.home{
+    min-width: 100vh;
+    overflow: hidden;
+    background-color: beige;
+}
+.home .loginsss{
+    width: 100%;
+    height: 40px;
+
+}
+.home .loginsss ul{
+    display: flex;
+    float: right;
+   
+}
+.home .loginsss ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: black !important;
+}
+.home .loginsss ul li a:hover{
+    color : rgb(252, 24, 24) !important;
+}
+.home .loginsss .num{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black !important;
+    margin-left: 20px;
+    display: flex;
+}
+.home .loginsss ul li a{
+    text-decoration: none;
+    color: black !important;
+}
+.home .navbar{
+    width: 100%;
+    height: 50px;
+    background-color: beige;
+    color: white;
+    display: flex;
+}
+.home .navbar h1{
+   
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: #000;
+    
+}
+.home .navbar ul{
+    display: flex;
+    
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    width: 50%;
+
+}
+.home .navbar ul li {
+    width: 100%;
+    height: 100%;
+    font-style: none;
+}
+.home .navbar ul .link  {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight:0px !important;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    font-size: 17px;
+
+    justify-content: center;
+    align-items: center;
+   
+}
+.home .navbar ul li a:hover ,.active{
+   color: rgb(252, 24, 24) !important;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.home .lanternes{
+    width: 100%;
+    height: 450px;
+    background: url(../../assets/images/event.jpg) no-repeat center;
+    margin-bottom: 20px;
+
+}
+.home .Titer{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 40px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: beige;
+}
+.home .Titer .text-wrapper-2{
+    font-size: 30px;
+    color: rgb(226, 47, 128);
+    font-weight: 600;
+}   
+.home .flex-row{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+.home .flex-row .col{
+    width: 24%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.home .flex-row .col:hover{
+    cursor: pointer;
+    background-color: rgb(40, 40, 230);
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.home .flex-row .col .link-card{ 
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+  
+}
+.home .flex-row .col .img_event{
+    width: 100% !important;
+    height: 250px !important;
+}
+.home .flex-row .col .content{
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    margin-left: 10px;
+    align-items: center;
+    height: 45px;
+}
+.home .flex-row .col .content .titer-clubs{
+    font-size: 20px;
+    font-weight: 600;
+}
+.home .flex-row .col .content .date{
+    font-size: 15px;
+    
+}
+.home .flex-row .col .content .location{
+    position: relative;
+    top: -78px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    left: 10px;
+}
+.home .flex-row .col .img_event:hover{
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
