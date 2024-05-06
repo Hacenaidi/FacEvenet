@@ -1,9 +1,8 @@
 import React from "react";
-import "./Home.css";
-import img from "../../assets/images/image.png";
-import { Card } from 'primereact/card';
+import "./Evenements.css";
+import img from "../../assets/images/club.png";
 import { Link } from "react-router-dom";
-export const Home = () => {
+export const Evenements = () => {
   return (
     <div className="home">
       <div className="div">
@@ -25,80 +24,25 @@ export const Home = () => {
         </ul>
         </div>       
          <div className="lanternes" />
-         <div className="Titer">
-          <div className="text-wrapper-2">Popular Events</div>
-        </div>
-        <div className="flex-row">
-          <div className="col">
-            <Link className="link-card" to="/evenement/{id}">
-            <img className="img_event" alt="image" src={img} />
-            <div className="content">
-              <div className="titer-clubs">IEEE</div>
-              <div className="date">12-12-2022</div>
-              <div className="location">Emphie 2</div>
-              <div className="type-evenet">Public</div>
-            </div>
-            </Link>
-          </div>
-          <div className="col">
-            <Link className="link-card" to="/evenement/{id}">
-            <img className="img_event" alt="image" src={img} />
-            <div className="content">
-              <div className="titer-clubs">IEEE</div>
-              <div className="date">12-12-2022</div>
-              <div className="location">Emphie 2</div>
-              <div className="type-evenet">Public</div>
-            </div>
-            </Link>
-          </div>
-          <div className="col">
-            <Link className="link-card" to="/evenement/{id}">
-            <img className="img_event" alt="image" src={img} />
-            <div className="content">
-              <div className="titer-clubs">IEEE</div>
-              <div className="date">12-12-2022</div>
-              <div className="location">Emphie 2</div>
-              <div className="type-evenet">Public</div>
-            </div>
-            </Link>
-          </div>
-          <div className="col">
-            <Link className="link-card" to="/evenement/{id}">
-            <img className="img_event" alt="image" src={img} />
-            <div className="content">
-              <div className="titer-clubs">IEEE</div>
-              <div className="date">12-12-2022</div>
-              <div className="location">Emphie 2</div>
-              <div className="type-evenet">Public</div>
-            </div>
-            </Link>
-          </div>
-        </div>   
-        
-        <div className="Titer">
-          <div className="text-wrapper-2">Upcoming Events</div>
-        </div>
-        <div className="flex-row">
+         <div className="content-clubs">
+         <div className="text-center text-xl">Evenements</div>
+         <div className="list-Evenements">
+            {/* <div className="best-evenet">
+              <img className="img_event" alt="image" src={img} />
+              <div className="nom-event">Club 1</div>
+              <Link to={'/joinEvent'}>
+              <div className="btn-join-event">Join</div>
+              </Link> */}
 
-        <div className="col">
+            <div className="evenets">
+            <div className="flex-row">
+            <div className="col">
             <Link className="link-card" to="/evenement/{id}">
             <img className="img_event" alt="image" src={img} />
             <div className="content">
               <div className="titer-clubs">IEEE</div>
               <div className="date">12-12-2022</div>
               <div className="location">Emphie 2</div>
-              <div className="type-evenet">Public</div>
-            </div>
-            </Link>
-          </div>
-          
-          <div className="col">
-            <Link className="link-card" to="/evenement/{id}">
-            <img className="img_event" alt="image" src={img} />
-            <div className="content">
-              <div className="titer-clubs">IEEE</div>
-              <div className="date">12-12-2022</div>
-              <div className="location" >Emphie 2</div>
               <div className="type-evenet">Public</div>
             </div>
             </Link>
@@ -125,7 +69,7 @@ export const Home = () => {
             </div>
             </Link>
           </div>
-               <div className="col">
+          <div className="col">
             <Link className="link-card" to="/evenement/{id}">
             <img className="img_event" alt="image" src={img} />
             <div className="content">
@@ -136,8 +80,56 @@ export const Home = () => {
             </div>
             </Link>
           </div>
-        </div>
+         <div className="col">
+            <Link className="link-card" to="/evenement/{id}">
+            <img className="img_event" alt="image" src={img} />
+            <div className="content">
+              <div className="titer-clubs">IEEE</div>
+              <div className="date">12-12-2022</div>
+              <div className="location">Emphie 2</div>
+              <div className="type-evenet">Public</div>
+            </div>
+            </Link>
+          </div>
+           <div className="col">
+            <Link className="link-card" to="/evenement/{id}">
+            <img className="img_event" alt="image" src={img} />
+            <div className="content">
+              <div className="titer-clubs">IEEE</div>
+              <div className="date">12-12-2022</div>
+              <div className="location">Emphie 2</div>
+              <div className="type-evenet">Public</div>
+            </div>
+            </Link>
+          </div>
+          <div className="col">
+            <Link className="link-card" to="/evenement/{id}">
+            <img className="img_event" alt="image" src={img} />
+            <div className="content">
+              <div className="titer-clubs">IEEE</div>
+              <div className="date">12-12-2022</div>
+              <div className="location">Emphie 2</div>
+              <div className="type-evenet">Public</div>
+            </div>
+            </Link>
+          </div>
+          <div className="col">
+            <Link className="link-card" to="/evenement/{id}">
+            <img className="img_event" alt="image" src={img} />
+            <div className="content">
+              <div className="titer-clubs">IEEE</div>
+              <div className="date">12-12-2022</div>
+              <div className="location">Emphie 2</div>
+              <div className="type-evenet">Public</div>
+            </div>
+            </Link>
+          </div>
+               
+            </div>
+</div>
+         </div>
+         </div>
       </div>
-    </div>
+      </div>
   );
 };

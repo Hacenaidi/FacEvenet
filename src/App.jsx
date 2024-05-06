@@ -8,6 +8,8 @@ import { Register_5 } from './pages/register/Register_5';
 import { Register_4 } from './pages/register/Register_4';
 import { Navigate } from "react-router-dom";
 import { Home } from './pages/home/Home';
+import { Clubs } from './pages/clubs/Clubs';
+import { Evenements } from './pages/evenements/Evenements';
 function App(){
   return(
     <Router> 
@@ -20,6 +22,8 @@ function App(){
         <Route path="/verificationcode" element={<Register_4/>}/>
         <Route path="/confirmverification" element={<Register_5/>}/>
         <Route path="/home" element={<Home/>}/>
+        <Route path="/clubs" element={<Clubs/>}/>
+        <Route path="/evenements" element={<Evenements/>}/>
 
         </Routes>
   </Router>

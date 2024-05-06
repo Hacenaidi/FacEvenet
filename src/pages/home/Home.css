@@ -88,7 +88,7 @@
     align-items: center;
    
 }
-.home .navbar ul li a:hover ,.active{
+.home .navbar ul li a:hover{
    color: rgb(252, 24, 24) !important;
     cursor: pointer;
     transition: 0.5s;
@@ -180,6 +180,15 @@
     color: rgb(255, 255, 255);
     font-size: 25px;
     left: 10px;
+}
+.home .flex-row .col .content .type-evenet{
+    position: relative;
+    top:-62px;
+    left: 265px;
+    width: 50px;
+    padding: 5px 10px 5px 15px;
+    background-color: red;
+    border-radius: 20px;
 }
 .home .flex-row .col .img_event:hover{
     cursor: pointer;

@@ -244,4 +244,7 @@
       top: 25px;
     z-index:-1;
   }
+  button{
+    cursor: pointer;
+  }
   

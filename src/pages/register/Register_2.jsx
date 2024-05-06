@@ -57,7 +57,7 @@ export const Register_2 = () => {
                         </tr>
                     </table>
                     <div className="text-wrapper-9">Register additional information</div>
-                    <Button className="btn-register " type="submit">
+                    <Button className="btn-register " type="submit" >
                         <div className="text-wrapper-10">Register</div>
                     </Button>
                 </form>
