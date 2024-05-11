@@ -25,7 +25,7 @@
     position: relative;
     top: -335px;
     left: 190vh;
-    width: 50px;
+    width: 80px;
     background-color: rgb(226, 47, 128);
     color: #ffffff;
     font-family: "Poppins", sans-serif;
@@ -50,7 +50,7 @@
 }
 .card-clubs .btn-join-club{
 
-    width: 40px;
+    width: 80px;
     background-color: rgb(226, 47, 128);
     color: #ffffff;
     font-family: "Poppins", sans-serif;
@@ -60,7 +60,14 @@
     padding: 10px 20px;
     border-radius: 10px;
     position: relative;
-    left: 190px;
+    left: 170px;
     bottom: 5px;
 
+}
+.p-dialog-title ,.pr_id_3_content , .p-dialog-footer{
+   padding: 15px;
+    /* background-color: black; */
+}
+.p-button{
+    margin-left: 10px;
 }

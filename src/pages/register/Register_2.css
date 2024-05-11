@@ -144,7 +144,7 @@
   }
   
   .register .frame-3 {
-    background-color: #ffffff;
+    
     border-radius: 700px;
     height: 56px;
     left: 392px;
@@ -152,6 +152,14 @@
     top: 0;
     width: 59px;
   }
+
+  .register .white{
+    background-color: #ffffff;
+  }
+  .register .green{
+    background-color: #26d72d;
+  }
+
   
   .register .text-wrapper-3 {
     color: #000000;
@@ -210,8 +218,9 @@
     left: 318px;
     overflow: hidden;
     position: absolute;
-    top: 600px;
+    top: 610px;
     width: 565px;
+    cursor: pointer;
   }
   
   .register .text-wrapper-10 {
@@ -219,11 +228,10 @@
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
     font-weight: 400;
-    left: 224px;
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 9px;
+    position: relative;
+    text-align: center;
     white-space: nowrap;
   }
 
@@ -247,4 +255,9 @@
   button{
     cursor: pointer;
   }
-  
+  .error-message{
+    font-size: 15px;
+    color: rgb(220, 43, 43);
+    position: relative;
+    left: 20px;
+  }

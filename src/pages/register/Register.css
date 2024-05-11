@@ -166,28 +166,11 @@ button {
 
 .flex-row-fc {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  width: 338px;
+  /* width: 338px; */
   height: 25px;
-  margin: 32px 0 0 132px;
-  z-index: 16;
-}
-
-.agree-to-terms {
-  flex-shrink: 0;
-  position: relative;
-  height: 25px;
-  color: #ffffff;
-  right: 120px;
-  font-family: Inter, var(--default-font-family);
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 25px;
-  text-align: left;
-
-
+  margin: 30px 5px 0 132px;
+  color: white;
+  z-index: 17;
 
 }
 .btn-register {
@@ -210,6 +193,7 @@ button {
   text-align: center;
   justify-content: center;
   white-space: nowrap;
+  left: 140px;
 }
 .p-checkbox{
   position: relative;

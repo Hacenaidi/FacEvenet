@@ -116,7 +116,6 @@
     font-weight: 600;
 }   
 .home .flex-row{
-    /* border: 1px solid #000; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -132,8 +131,7 @@
     height: 25%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
     margin-bottom: 20px;
     margin-left: 10px;
     background-color: white;
@@ -141,7 +139,7 @@
 }
 .home .flex-row .col:hover{
     cursor: pointer;
-    background-color: rgb(40, 40, 230);
+    background-color: rgb(1, 181, 241);
     color: white;
     border-radius: 10px;
     transition: 0.5s;
@@ -163,7 +161,7 @@
     height: 100%;
     /* display: flex; */
     margin-left: 10px;
-    align-items: center;
+    /* align-items: center; */
     height: 45px;
 }
 .home .flex-row .col .content .titer-clubs{
@@ -179,13 +177,13 @@
     top: -78px;
     color: rgb(255, 255, 255);
     font-size: 25px;
-    left: 10px;
+    left: 5px;
 }
 .home .flex-row .col .content .type-evenet{
     position: relative;
-    top:-62px;
-    left: 265px;
-    width: 50px;
+    top:-68px;
+    left: 70%;
+    width: 70px;
     padding: 5px 10px 5px 15px;
     background-color: red;
     border-radius: 20px;
