@@ -48,6 +48,8 @@
 }
 .clubs .flex-row .col{
   flex: 1;
+
+cursor: pointer;
  
 }
 .clubs .card {

@@ -3,7 +3,7 @@ import { InputText } from 'primereact/inputtext';
 import { FileUpload } from 'primereact/fileupload';
 import { Dropdown } from 'primereact/dropdown';
 import './style_from.css';
-export const Form_clubs = (action,formData) => {
+export const Form_clubs = (formData) => {
     
     const [errors, setErrors] = useState({
         name: '',
@@ -13,6 +13,7 @@ export const Form_clubs = (action,formData) => {
         manager: '',
         image: ''
     });
+    formData = formData.formData;
 
     const handleChange = (e, fieldName) => {
         const { value } = e.target;
@@ -89,7 +90,7 @@ export const Form_clubs = (action,formData) => {
 
     return (
         <div className="form-container">
-            <h1 className="form-title">{action === 'add' ? 'Add' : 'Edit'} Club</h1>
+          
             <form onSubmit={handleSubmit} className="form">
                 <div className="form-field">
                     <label htmlFor="name" className="form-label">Name</label>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { InputText } from 'primereact/inputtext';
 import { Dropdown } from 'primereact/dropdown';
 import { FileUpload } from 'primereact/fileupload';
+import { InputTextarea } from 'primereact/inputtextarea';
 import './style_from.css';
 
 export const Form_evenements = ({ action, formData }) => {
@@ -108,7 +109,8 @@ export const Form_evenements = ({ action, formData }) => {
                 </div>
                 <div className="form-field">
                     <label htmlFor="description" className="form-label">Description</label>
-                    <InputText id="description" value={formData.description} onChange={(e) => handleChange(e, 'description')} className="form-input" />
+                    <InputTextarea  id="description" value={formData.description} onChange={(e) => handleChange(e, 'description')} className="form-input" rows={5} cols={30} />
+         
                     {errors.description && <small className="form-error">{errors.description}</small>}
                 </div>
                 <div className="form-field">

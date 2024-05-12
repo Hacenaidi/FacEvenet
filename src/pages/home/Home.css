@@ -194,4 +194,7 @@
     transition: 0.5s;
     overflow: hidden;
 }
-
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}

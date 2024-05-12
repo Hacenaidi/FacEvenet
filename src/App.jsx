@@ -21,6 +21,7 @@ import { Dashboard_president } from './pages/dashboard-president/Dashboard_presi
 import { Clubs_president } from './pages/dashboard-president/Clubs_president';
 import { Evenements_president } from './pages/dashboard-president/Evenements_president';
 import Layout_president from './components/Layout_president';
+import { Evenement } from './pages/evenement/evenement';
 
 function App(){
   return(
@@ -36,6 +37,7 @@ function App(){
           <Route path="/home" element={<Home/>}/>
           <Route path="/clubs" element={<Clubs/>}/>
           <Route path="/evenements" element={<Evenements/>}/>
+          <Route path="/evenement/:id" element={<Evenement/>}/>
           <Route path="/admin" element={<Layout/>}>
             <Route index element={<Dashboard_admin/>}/>
     

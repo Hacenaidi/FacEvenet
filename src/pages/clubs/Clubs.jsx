@@ -46,6 +46,7 @@ export const Clubs = () => {
             <div className="best-club">
               <img className="img_club" alt="image" src="https://picsum.photos/200" />
               <div className="nom-club">Club 1</div>
+             
     
               <Button onClick={showTemplate}   className="mr-2 btn-join-club">Join</Button>
 
@@ -53,46 +54,7 @@ export const Clubs = () => {
             <div className="clubs_user">
                 <div className="flex-row">
 
-                <div className="card-clubs col">
-                    <img className="img_club" alt="image" src="https://picsum.photos/200" />
-                    <div className="content">
-                    <div className="nom-club">Club 2</div>
-                    <Button onClick={showTemplate}   className="mr-2 btn-join-club">Join</Button>
-                    </div>
-                   
-                </div>
-                <div className="card-clubs col">
-                    <img className="img_club" alt="image" src="https://picsum.photos/200" />
-                    <div className="content">
-                    <div className="nom-club">Club 2</div>
-                    <Button onClick={showTemplate}   className="mr-2 btn-join-club">Join</Button>
-                    </div>
-                   
-                </div>
-                <div className="card-clubs col">
-                    <img className="img_club" alt="image" src="https://picsum.photos/200" />
-                    <div className="content">
-                    <div className="nom-club">Club 2</div>
-                    <Button onClick={showTemplate}   className="mr-2 btn-join-club">Join</Button>
-                    </div>
-                   
-                </div>
-                <div className="card-clubs col">
-                    <img className="img_club" alt="image" src="https://picsum.photos/200"/>
-                    <div className="content">
-                    <div className="nom-club">Club 2</div>
-                    <Button onClick={showTemplate}   className="mr-2 btn-join-club">Join</Button>
-                    </div>
-                   
-                </div>
-                <div className="card-clubs col">
-                    <img className="img_club" alt="image" src="https://picsum.photos/200" />
-                    <div className="content">
-                    <div className="nom-club">Club 2</div>
-                    <Button onClick={showTemplate}   className="mr-2 btn-join-club">Join</Button>
-                    </div>
-                   
-                </div>
+               
                 <div className="card-clubs col">
                     <img className="img_club" alt="image" src="https://picsum.photos/200" />
                     <div className="content">

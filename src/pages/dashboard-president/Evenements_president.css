@@ -95,7 +95,7 @@
     color: #007bff !important;
   }
 
-  .tableView table .action-button {
+ .action-button {
     margin-right: 10px;
     cursor: pointer;
     color: white;

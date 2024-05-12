@@ -6,7 +6,7 @@ import { Form_clubs } from "./Form_clubs";
 
 export const Clubs_admin = () => {
     const [clubs, setClubs] = useState([
-        { id: 1, name: 'Club 1', description: 'Description 1', field: 'Field 1', department: 'Department 1', manager: 'Manager 1', image: 'https://example.com/image1.jpg' },
+        { id: 1, name: 'Club 1', description: 'Description 1', field: 'Field 1', department: 'Department 1', manager: 'Manager 1', image: 'https://example.com/image1.jpg',member:20 },
        
       ]);
       const [dialogVisible, setDialogVisible] = useState(false);
@@ -17,7 +17,8 @@ export const Clubs_admin = () => {
         field: '',
         department: '',
         manager: '',
-        image: ''
+        image: '',
+        member: '',
       });
       const managers = [
         { label: 'John Doe', value: 'John Doe' },
@@ -30,7 +31,7 @@ export const Clubs_admin = () => {
       const handleDialogShow = (id) => {
         if (id) {
           const clubToEdit = clubs.find(club => club.id === id);
-          setFormData({ ...clubToEdit });
+          setFormData(clubToEdit);
           setAction('edit');
         } else {
           setFormData({ id: null, name: '', description: '', field: '', department: '', manager: '', image: '' });
@@ -42,7 +43,19 @@ export const Clubs_admin = () => {
       const handleCloseDialog = () => {
         setDialogVisible(false);
       };
-    
+      const handledelteclub = (id) => {
+        // affiche messsge de confirmation de suppression
+        // si oui
+
+        // supprimer le membre
+        // rediriger vers la page Clubs_president
+        const valid = confirm("Are you sure you want to delete this club?");
+        if (valid) {
+            
+        } else {
+            // Do nothing
+        }
+        } 
 
     return (
         <>
@@ -57,26 +70,29 @@ export const Clubs_admin = () => {
                 <div className="clubs">
                     <div className="flex-row">
                         
-
-                        <div className="col" >
-                            <div className="card">
+                        {clubs.map((club) => (
+                            <div className="col" key={club.id}>
+                               <div className="card">
                                 <img src="https://picsum.photos/200" alt="" className="card-image" />
-                                <p className="card-title">Orange</p>
-                                <p className="card-title">President : follen folani</p>
-                                <p className="card-body">Member : 80 </p>
-                                <button className="btn btn-delete" onClick={() => { confirm("Are you sure!") }}>
+                                <p className="card-title">Club : {club.name}</p>
+                                <p className="card-title">Field : {club.field}</p>
+                                <p className="card-body">Member : {club.member}</p>
+                                <button className="btn btn-delete" onClick={() => handledelteclub(club.id )}>
                                     <i className="pi pi-trash"></i>
                                 </button>
-                                <Button className="btn btn-edit" onClick={() => handleDialogShow(clubs.id)}>
+                                <Button className="btn btn-edit" onClick={() => handleDialogShow(club.id)}>
                                     <i className="pi pi-pencil"></i>
                                 </Button>
                             </div>
                         </div>
-                    </div>
+                   
+
+                        ))}
                 </div>
             </div>
+            </div>
             <Dialog header={action === 'add' ? "Add Clubs" : "Edit Clubs"} visible={dialogVisible} style={{ width: '50vw' }} onHide={handleCloseDialog}>
-                <Form_clubs  action={action} formData={formData} />
+                <Form_clubs formData={formData} />
             </Dialog>
         </>
     );
